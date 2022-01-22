@@ -1,14 +1,14 @@
 import React from 'react'
-import { HeroImages } from '../../utils'
+import { StoryImages } from '../../utils'
 
 const images = [
-    { src: HeroImages.Hero1, alt: 'Hero1' },
-    { src: HeroImages.Hero2, alt: 'Hero2' },
-    { src: HeroImages.Hero3, alt: 'Hero3' },
-    { src: HeroImages.Hero4, alt: 'Hero4' },
-    { src: HeroImages.Hero5, alt: 'Hero5' },
-    { src: HeroImages.Hero6, alt: 'Hero6' },
-    { src: HeroImages.Hero7, alt: 'Hero7' },
+    { src: StoryImages.Hero1, alt: 'Hero1' },
+    { src: StoryImages.Hero2, alt: 'Hero2' },
+    { src: StoryImages.Hero3, alt: 'Hero3' },
+    { src: StoryImages.Hero4, alt: 'Hero4' },
+    { src: StoryImages.Hero5, alt: 'Hero5' },
+    { src: StoryImages.Hero6, alt: 'Hero6' },
+    { src: StoryImages.Hero7, alt: 'Hero7' },
 ]
 
 export default function BackgroundStory() {

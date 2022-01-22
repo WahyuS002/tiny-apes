@@ -1,2 +1,2 @@
-export { HeroImages, TeamImages } from './ImportImages/ImportImages'
+export { StoryImages, TeamImages } from './ImportImages/ImportImages'
 export { initialTabs } from './TabAnimations/TabAnimations'

@@ -8,6 +8,7 @@ import Navbar from '../components/public/Navbar'
 import Footer from '../components/public/Footer'
 import BackgroundStory from '../components/home/BackgroundStory'
 import Team from '../components/home/Team'
+import Traits from '../components/home/Traits'
 
 export default function Home() {
     return (
@@ -18,6 +19,9 @@ export default function Home() {
             </div>
             <div className="mt-36">
                 <BackgroundStory />
+            </div>
+            <div className="mt-12 md:mt-44">
+                <Traits />
             </div>
             <div className="mt-12 md:mt-44">
                 <About />

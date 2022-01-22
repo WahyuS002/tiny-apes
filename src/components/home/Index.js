@@ -1,6 +1,6 @@
 import React from 'react'
-import WelcomeImage from '../../assets/images/Welcome.png'
 import HeroImage from '../../assets/images/Hero.png'
+import DropdownMenu from '../public/DropdownMenu'
 
 export default function Index() {
     return (
@@ -16,7 +16,8 @@ export default function Index() {
                             Innovators, and Creators of various Algorand NFT projects.
                         </p>
                         <div className="flex space-x-6">
-                            <button className="bg-primary px-8 py-4 rounded-xl text-lg font-semibold text-black hover:bg-amber-500 transition-all duration-300 ease-in-out">Buy Now</button>
+                            {/* <button className="bg-primary px-8 py-4 rounded-xl text-lg font-semibold text-black hover:bg-amber-500 transition-all duration-300 ease-in-out">Buy Now</button> */}
+                            <DropdownMenu />
                             <a
                                 href="https://www.nftexplorer.app/collection/tiny-ape"
                                 target={'_blank'}
@@ -24,7 +25,7 @@ export default function Index() {
                                 rel="noreferrer"
                             >
                                 <div className="flex">
-                                    Check in NFT Explorer
+                                    NFT Explorer
                                     <span className="ml-2">
                                         <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" viewBox="0 0 20 20" fill="currentColor">
                                             <path d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z" />

@@ -23,7 +23,7 @@ export default function TabAnimation() {
                             <div className="flex flex-col relative">
                                 {/* <span className="text-lg">{item.icon}</span> */}
                                 <span className="text-sm">
-                                    {item.label}
+                                    <span className="mt-1">{item.label}</span>
                                     {item === selectedTab ? <motion.div className="absolute -bottom-[5px] left-0 right-0 h-[2px] bg-primary" layoutId="underline" /> : null}
                                 </span>
                             </div>
