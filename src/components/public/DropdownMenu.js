@@ -5,7 +5,7 @@ export default function DropdownMenu() {
     return (
         <Menu as="div" className="relative inline-block text-left">
             <div>
-                <Menu.Button className="bg-primary px-8 py-4 rounded-xl text-lg font-semibold text-black hover:bg-amber-500 transition-all duration-300 ease-in-out flex items-center">
+                <Menu.Button className="bg-primary px-8 py-4 rounded-xl md:text-lg font-semibold text-black hover:bg-amber-500 transition-all duration-300 ease-in-out flex items-center justify-center md:justify-start w-full md:w-auto">
                     Buy Now
                     <span className="ml-2">
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" viewBox="0 0 20 20" fill="currentColor">

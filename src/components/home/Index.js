@@ -6,7 +6,7 @@ export default function Index() {
     return (
         <div>
             <div className="px-12 md:px-20" id="home">
-                <div className="flex flex-col md:flex-row items-center justify-between">
+                <div className="flex flex-col-reverse md:flex-row items-center justify-between">
                     <div className="w-full md:w-[40%] space-y-6">
                         <h1 className="text-4xl md:text-5xl font-bold leading-tight upper">
                             Welcome To <br></br> Tiny Apes 🍌
@@ -15,16 +15,15 @@ export default function Index() {
                             A collection of 1000 Apes created by the mad genius known as @DegenScientist! Our goal with the Tiny Apes is to grow as a DAO with a community of fellow Artists,
                             Innovators, and Creators of various Algorand NFT projects.
                         </p>
-                        <div className="flex space-x-6">
-                            {/* <button className="bg-primary px-8 py-4 rounded-xl text-lg font-semibold text-black hover:bg-amber-500 transition-all duration-300 ease-in-out">Buy Now</button> */}
+                        <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-6">
                             <DropdownMenu />
                             <a
                                 href="https://www.nftexplorer.app/collection/tiny-ape"
                                 target={'_blank'}
-                                className="bg-semi-black hover:bg-gray-800 transition-all duration-300 ease-in-out px-8 py-4 rounded-xl text-lg font-semibold text-white items-center block"
+                                className="bg-semi-black hover:bg-gray-800 transition-all duration-300 ease-in-out px-8 py-4 rounded-xl md:text-lg font-semibold text-white items-center block"
                                 rel="noreferrer"
                             >
-                                <div className="flex">
+                                <div className="flex justify-center md:justify-start w-full md:w-auto">
                                     NFT Explorer
                                     <span className="ml-2">
                                         <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" viewBox="0 0 20 20" fill="currentColor">
@@ -36,7 +35,7 @@ export default function Index() {
                             </a>
                         </div>
                     </div>
-                    <div className="w-full md:w-1/2 mt-12 md:mt-0 animate-infinite-up-and-down">
+                    <div className="w-full md:w-1/2 mb-12 md:mb-0 animate-infinite-up-and-down">
                         <img className="rounded-xl md:rounded-3xl" src={HeroImage} alt="" />
                     </div>
                 </div>

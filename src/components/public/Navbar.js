@@ -46,7 +46,7 @@ export default function Navbar() {
             </div>
             <div className="flex md:hidden justify-between items-center w-min-full py-4">
                 <Link to="/" className="uppercase font-semibold">
-                    DegenGoat<span className="ml-[0.09rem] inline-block w-[0.4rem] h-[0.4rem] rounded-full bg-primary"></span>
+                    TinyApes<span className="ml-[0.15rem] inline-block w-[0.4rem] h-[0.4rem] rounded-full bg-primary"></span>
                 </Link>
                 <HamburgerMenu />
             </div>
