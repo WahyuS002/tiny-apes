@@ -10,11 +10,11 @@ export default function About() {
                 </div>
                 <div className="md:w-7/12 mb-8 md:mb-0">
                     <p className="text-base md:text-lg text-gray-300 text-justify leading-relaxed">
-                        Welcome to Degen Goat, the <span className="bg-primary px-2 py1 rounded-lg text-semi-black font-semibold mx-1">G.O.A.T</span> on Algorand blockchain! Degen Goat is a collection
-                        of 1000 generated hand-drawn NFT with 8 different traits categories.
-                        <br /> <br />
-                        Our main focus is gathering Algofam and talented artist to become a strongest community on Algorand in humble way. We're also here to support the other NFT projects on Algorand
-                        by collecting them as a form of support and put them in the Degen Goat Bank.
+                        Welcome to Tiny Apes Official! A collection of <span className="bg-primary px-2 py-1 rounded-lg text-black font-semibold">1000 Apes</span> created by the mad genius known as
+                        @DegenScientist! Our goal with the Tiny Apes is to grow as a DAO with a community of fellow Artists, Innovators, and Creators of various Algorand NFT projects. We aim to bring
+                        several indie artists together and shine a spotlight on the amazing Algorand NFT community! We are a derivative from a previous NFT project known as the 8bit Mates! 150 Mates
+                        were minted and sold/gifted by @DegenScientist to members of Algorand who were looking to grow with the project! As a reward for being an OG of the 8bit Mates and because he
+                        will be busy with the @DegenGOATS project.
                     </p>
                 </div>
             </div>

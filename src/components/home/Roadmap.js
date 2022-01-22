@@ -3,7 +3,7 @@ import React from 'react'
 function Roadmap() {
     return (
         <div className="px-6 md:px-20 py-8 md:py-16 mx-auto max-w-[90rem]" id="roadmap">
-            <h2 className="text-3xl md:text-5xl font-semibold leading-tight text-center">Degen Goat Roadmap</h2>
+            <h2 className="text-3xl md:text-5xl font-semibold leading-tight text-center">Tiny Apes Roadmap</h2>
             <div className="relative max-w-7xl h-full mt-12 md:mt-24">
                 <div className="absolute left-0 md:left-1/2 ml-4 md:ml-0 border border-semi-black h-full"></div>
                 <div className="mb-8 flex justify-between items-center w-full md:flex-row-reverse">
@@ -16,9 +16,9 @@ function Roadmap() {
                         </div>
                     </div>
                     <div className="bg-semi-black shadow-2xl shadow-gray-400/10 rounded-xl  w-full md:w-5/12 p-6 md:px-8 md:py-6 ml-8 md:ml-0">
-                        <h3 className="font-semibold text-base md:text-lg">Degen Goat Airdrop for 8bit Mate Holders </h3>
+                        <h3 className="font-semibold text-base md:text-lg">XXX </h3>
                         <p className="mt-3 leading-relaxed tracking-wide text-gray-500 text-sm md:text-base">
-                            Beside getting the Tiny Ape airdrop (our beloved partner) 8bit mate holders will also get the Degen Goat airdrop! (2 8bit Mate = 1 Degen Goat)
+                            150 Apes reserved for the 8Bit Mate holders, 1 tiny ape per 8Bit Mate owned was sent to holders who claimed their Tiny Apes.
                         </p>
                     </div>
                 </div>
@@ -28,7 +28,7 @@ function Roadmap() {
                         <div className="bg-semi-black w-8 h-8 rounded-full"></div>
                     </div>
                     <div className="bg-semi-black shadow-2xl shadow-gray-400/10 rounded-xl  w-full md:w-5/12 p-6 md:px-8 md:py-6 ml-8 md:ml-0">
-                        <h3 className="font-semibold text-base md:text-lg">Open presale at 20A for the first 50 people</h3>
+                        <h3 className="font-semibold text-base md:text-lg">Open presale at 7A for the first 50 OG members AKA</h3>
                         <p className="mt-3 leading-relaxed tracking-wide text-gray-500 text-sm md:text-base">We will announce how to join the presale.</p>
                     </div>
                 </div>
@@ -38,9 +38,9 @@ function Roadmap() {
                         <div className="bg-semi-black w-8 h-8 rounded-full"></div>
                     </div>
                     <div className="bg-semi-black shadow-2xl shadow-gray-400/10 rounded-xl  w-full md:w-5/12 p-6 md:px-8 md:py-6 ml-8 md:ml-0">
-                        <h3 className="font-semibold text-base md:text-lg">Shuffle Schedule</h3>
+                        <h3 className="font-semibold text-base md:text-lg">XXX</h3>
                         <p className="mt-3 leading-relaxed tracking-wide text-gray-500 text-sm md:text-base">
-                            First minting price is 25A and keep increasing. We will announce the shuffle schedule, don't miss it! 50A is the maximum mint price.
+                            A number of Tiny Apes will be randomly set aside for giveaways and partnerships with other projects.
                         </p>
                     </div>
                 </div>
@@ -50,10 +50,10 @@ function Roadmap() {
                         <div className="bg-semi-black w-8 h-8 rounded-full"></div>
                     </div>
                     <div className="bg-semi-black shadow-2xl shadow-gray-400/10 rounded-xl  w-full md:w-5/12 p-6 md:px-8 md:py-6 ml-8 md:ml-0">
-                        <h3 className="font-semibold text-base md:text-lg">Degen Goat Bank opening</h3>
+                        <h3 className="font-semibold text-base md:text-lg">150 Apes will be sold on shuffles in the discord for 10 Algo</h3>
                         <p className="mt-3 leading-relaxed tracking-wide text-gray-500 text-sm md:text-base">
-                            20% of TOTAL SALES and 50% of royalty will go to Degen Goat Bank. It will be used wisely according to the wishes of the community, such as supporting other projects, sweep
-                            the floor, allocation for investing on hidden gem, shitcoin party, etc.
+                            Afterward, the price of Tiny Apes will increase based on a vote by our holders, this will repeat every 100 Apes sold. We will announce the shuffle schedule based on
+                            everyone's input!!
                         </p>
                     </div>
                 </div>
@@ -63,29 +63,10 @@ function Roadmap() {
                         <div className="bg-semi-black w-8 h-8 rounded-full"></div>
                     </div>
                     <div className="bg-semi-black shadow-2xl shadow-gray-400/10 rounded-xl  w-full md:w-5/12 p-6 md:px-8 md:py-6 ml-8 md:ml-0">
-                        <h3 className="font-semibold text-base md:text-lg">Charity program</h3>
-                        <p className="mt-3 leading-relaxed tracking-wide text-gray-500 text-sm md:text-base">10% of TOTAL SALES will be donated to charity</p>
-                    </div>
-                </div>
-                <div className="mb-8 flex justify-between items-center w-full">
-                    <div className="hidden md:block w-5/12"></div>
-                    <div className="z-20">
-                        <div className="bg-semi-black w-8 h-8 rounded-full"></div>
-                    </div>
-                    <div className="bg-semi-black shadow-2xl shadow-gray-400/10 rounded-xl  w-full md:w-5/12 p-6 md:px-8 md:py-6 ml-8 md:ml-0">
-                        <h3 className="font-semibold text-base md:text-lg">Algo NFT competition</h3>
-                        <p className="mt-3 leading-relaxed tracking-wide text-gray-500 text-sm md:text-base">We will announce about the competition, stay tune!</p>
-                    </div>
-                </div>
-                <div className="mb-8 flex justify-between items-center w-full md:flex-row-reverse">
-                    <div className="hidden md:block w-5/12"></div>
-                    <div className="z-20">
-                        <div className="bg-semi-black w-8 h-8 rounded-full"></div>
-                    </div>
-                    <div className="bg-semi-black shadow-2xl shadow-gray-400/10 rounded-xl  w-full md:w-5/12 p-6 md:px-8 md:py-6 ml-8 md:ml-0">
-                        <h3 className="font-semibold text-base md:text-lg">Private VR art Gallery</h3>
+                        <h3 className="font-semibold text-base md:text-lg">The Tiny Ape Treasury for Monkey Business</h3>
                         <p className="mt-3 leading-relaxed tracking-wide text-gray-500 text-sm md:text-base">
-                            We will create a private VR art gallery for Degen Goat (Would be on spatial, hubs mozilla or other platform) Degen Goat holders will have full access!
+                            50% of TOTAL SALES will go to the Treasury for Monkey Business. A DAO will be established for decisions on how to invest the funds such as: for the support of other
+                            projects, to invest in blue-chip NFT projects, to invest in promising ASA’s/Tokens, etc.
                         </p>
                     </div>
                 </div>
@@ -95,8 +76,11 @@ function Roadmap() {
                         <div className="bg-semi-black w-8 h-8 rounded-full"></div>
                     </div>
                     <div className="bg-semi-black shadow-2xl shadow-gray-400/10 rounded-xl  w-full md:w-5/12 p-6 md:px-8 md:py-6 ml-8 md:ml-0">
-                        <h3 className="font-semibold text-base md:text-lg">Public VR art Gallery</h3>
-                        <p className="mt-3 leading-relaxed tracking-wide text-gray-500 text-sm md:text-base">Let's show off our Degen Goat and make them jealous :P</p>
+                        <h3 className="font-semibold text-base md:text-lg">NFT Community Valt</h3>
+                        <p className="mt-3 leading-relaxed tracking-wide text-gray-500 text-sm md:text-base">
+                            We will begin to Accept Donations of promising NFTs from upcoming artists as well as pieces from Blue Chip NFT projects to put towards a community vault of NFTs, the
+                            community will then decide what NFTs we will accept and for how long to hold them.
+                        </p>
                     </div>
                 </div>
                 <div className="mb-8 flex justify-between items-center w-full md:flex-row-reverse">
@@ -105,13 +89,11 @@ function Roadmap() {
                         <div className="bg-semi-black w-8 h-8 rounded-full"></div>
                     </div>
                     <div className="bg-semi-black shadow-2xl shadow-gray-400/10 rounded-xl  w-full md:w-5/12 p-6 md:px-8 md:py-6 ml-8 md:ml-0">
-                        <h3 className="font-semibold text-base md:text-lg">Collab with holders</h3>
+                        <h3 className="font-semibold text-base md:text-lg">"Tiny Apes saves the Jungles” Charity program</h3>
                         <p className="mt-3 leading-relaxed tracking-wide text-gray-500 text-sm md:text-base">
-                            This will be the center of the collab edition between us as Degen Goat holders. As creator of Derivative, 90% of the sales will be transferred directly to your wallet, 10%
-                            will go to Degen Goat Bank. There is no rarity on this edition.
-                            <br />
-                            <br />
-                            You can also create and sell your own derivative art, including selling Degen Goat Twitter banner.
+                            The Tiny Apes might have left the Jungle but that doesn’t mean that they’ve forgotten their roots! As members of the Algorand blockchain, we take pride in our
+                            carbon-negative blockchain! The Algorand and the Tiny Ape army loves this Planet and its beautiful creatures; therefore 10% of TOTAL SALES will be donated to the Jane
+                            Goodall Institute
                         </p>
                     </div>
                 </div>
@@ -121,8 +103,39 @@ function Roadmap() {
                         <div className="bg-semi-black w-8 h-8 rounded-full"></div>
                     </div>
                     <div className="bg-semi-black shadow-2xl shadow-gray-400/10 rounded-xl  w-full md:w-5/12 p-6 md:px-8 md:py-6 ml-8 md:ml-0">
-                        <h3 className="font-semibold text-base md:text-lg">Merchandise</h3>
-                        <p className="mt-3 leading-relaxed tracking-wide text-gray-500 text-sm md:text-base">We will make Degen Goat merch exclusively for our holders</p>
+                        <h3 className="font-semibold text-base md:text-lg">VR art Gallery for Promoting/ Public Art Gallery</h3>
+                        <p className="mt-3 leading-relaxed tracking-wide text-gray-500 text-sm md:text-base">
+                            A VR art gallery where Tiny Ape members will be able to display their artwork to the community and be praised for it! Our Official Ape Gallery will Also be VR and available
+                            for the public to see.
+                        </p>
+                    </div>
+                </div>
+                <div className="mb-8 flex justify-between items-center w-full md:flex-row-reverse">
+                    <div className="hidden md:block w-5/12"></div>
+                    <div className="z-20">
+                        <div className="bg-semi-black w-8 h-8 rounded-full"></div>
+                    </div>
+                    <div className="bg-semi-black shadow-2xl shadow-gray-400/10 rounded-xl  w-full md:w-5/12 p-6 md:px-8 md:py-6 ml-8 md:ml-0">
+                        <h3 className="font-semibold text-base md:text-lg">TINY APE NFT Auction House!</h3>
+                        <p className="mt-3 leading-relaxed tracking-wide text-gray-500 text-sm md:text-base">
+                            Here fellow Tiny Ape holders will show their Tiny Ape NFTs for the community to buy. Artists will decide whether to list or auction their work! 100% of the sales and the
+                            royalty will be given to you! You can also create and sell your own derivative art without having to rely on us! The community will promote your artwork and help you in
+                            whatever way we can! We want to promote: artists, creators, and builders in the Algorand space! We actively seek connections with fellow artists for collaborations! The
+                            more the merrier! We want to see the Tiny Apes everywhere we see!
+                        </p>
+                    </div>
+                </div>
+                <div className="mb-8 flex justify-between items-center w-full">
+                    <div className="hidden md:block w-5/12"></div>
+                    <div className="z-20">
+                        <div className="bg-semi-black w-8 h-8 rounded-full"></div>
+                    </div>
+                    <div className="bg-semi-black shadow-2xl shadow-gray-400/10 rounded-xl  w-full md:w-5/12 p-6 md:px-8 md:py-6 ml-8 md:ml-0">
+                        <h3 className="font-semibold text-base md:text-lg">Website and Merch</h3>
+                        <p className="mt-3 leading-relaxed tracking-wide text-gray-500 text-sm md:text-base">
+                            We are currently working on our website! Here Tiny Ape holders will be able to access all of our info as well as our future merch! We will have shirts, hoodies, stickers,
+                            cards, etc! Part of the proceeds will go towards our community wallet. If you own a Tiny Ape, you’re welcome to make merchandise of your ape/s!
+                        </p>
                     </div>
                 </div>
                 <div className="mb-8 flex justify-between items-center w-full md:flex-row-reverse">
@@ -132,9 +145,7 @@ function Roadmap() {
                     </div>
                     <div className="bg-semi-black shadow-2xl shadow-gray-400/10 rounded-xl  w-full md:w-5/12 p-6 md:px-8 md:py-6 ml-8 md:ml-0">
                         <h3 className="font-semibold text-base md:text-lg">Community decision about the future of the project</h3>
-                        <p className="mt-3 leading-relaxed tracking-wide text-gray-500 text-sm md:text-base">
-                            The community will play a big role to decide the future of the project, we are the G.O.A.T!
-                        </p>
+                        <p className="mt-3 leading-relaxed tracking-wide text-gray-500 text-sm md:text-base">Further decisions regarding the future of the project will be decided by the community!</p>
                     </div>
                 </div>
             </div>
