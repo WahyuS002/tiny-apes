@@ -9,11 +9,11 @@ export const StoryImages = {
 }
 
 export const TeamImages = {
+    Algonaut: require('../../assets/images/teams/algonaut.png'),
     DegenScientist: require('../../assets/images/teams/degen scientist.png'),
+    Meri: require('../../assets/images/teams/meri.png'),
     Termoses: require('../../assets/images/teams/termoses.png'),
     Wahyu: require('../../assets/images/teams/wahyu.png'),
-    Algonaut: require('../../assets/images/teams/algonaut.png'),
-    Meri: require('../../assets/images/teams/meri.png'),
 }
 
 export const FurImages = {

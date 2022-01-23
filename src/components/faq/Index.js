@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import FaqImage from '../../assets/images/FAQ.png'
 
-const latestFAQ = (
+const latestAnswer = (
     <p>
         <a
             href="https://ab2.gallery/address/APEETNMQ3THVAJAAXM3FXAYLAPKZM7HUK2K4GWML4YFYYG7QR7CMNZ6YOI"
@@ -23,31 +23,68 @@ const latestFAQ = (
         </a>
     </p>
 )
+
+const secondAnswer = (
+    <p>
+        Shuffles will happen every week where 50 Apes will be released through Rand Gallery as a random shuffle. A Link will be provided through our{' '}
+        <a href="https://twitter.com/@DegenTinyApes" className="text-primary hover:text-blue-700 transition-all duration-300 ease-in-out" target={'_blank'} rel="noreferrer">
+            Twitter
+        </a>{' '}
+        and{' '}
+        <a href="https://discord.gg/3tmjtMGy" className="text-primary hover:text-blue-700 transition-all duration-300 ease-in-out" target={'_blank'} rel="noreferrer">
+            Discord.
+        </a>
+    </p>
+)
+
+const fourthAnswer = (
+    <p>
+        All available Tiny Apes on the secondary market will be found on{' '}
+        <a href="https://www.nftexplorer.app/sellers?collection=tiny-ape" className="text-primary hover:text-blue-700 transition-all duration-300 ease-in-out" target={'_blank'} rel="noreferrer">
+            NFT explorer
+        </a>
+    </p>
+)
+
+const fifthAnswer = (
+    <p>
+        Rarity and sales history is also available on{' '}
+        <a href="https://www.nftexplorer.app/collection/tiny-ape" className="text-primary hover:text-blue-700 transition-all duration-300 ease-in-out" target={'_blank'} rel="noreferrer">
+            NFT explorer{' '}
+        </a>
+    </p>
+)
+
 const faq = [
     {
         number: 1,
-        question: 'What Blockchain Will Tiny Apes Launch?',
-        answer: 'We choose Algorand due to the low gas fee and fast transaction speed. We also want to grow the Algorand NFT by helping the artists (Tiny Apes Holders only) to start their own generated NFT projects by helping to generate their art, batch minting (optional), and set up the Discord.',
+        question: 'Where will the Tiny Apes be minted?',
+        answer: 'The Tiny Apes will be batch minted on the Algorand Blockchain!',
     },
     {
         number: 2,
-        question: 'When will we able to buy Tiny Apes?',
-        answer: 'Mid January 2022',
+        question: 'How to buy a Tiny Ape?',
+        answer: secondAnswer,
     },
     {
         number: 3,
-        question: 'How to buy Tiny Apes?',
-        answer: 'Unlike other blockchains that able to minting on the website, we will do "shuffle" on our discord (Algorand NFT standard). Tiny Apes can also be purchased with instant shuffle at Rand Gallery. It works like minting a dApp on another blockchain. Contact us on discord for a guide to join shuffle.',
+        question: 'How much will a Tiny Ape cost?',
+        answer: '  Tiny Apes cost 20 Algo in the instant shuffle, with the price subject to change through a community decision.',
     },
     {
         number: 4,
-        question: 'How much will it cost to buy Tiny Apes?',
-        answer: '25A for the first shuffle and keep increasing to 50A for the maximum price. There are no price tier and auctions for Tiny Apes, all G.O.A.T Are Handsome.',
+        question: 'Where is the Tiny Apes secondary market?',
+        answer: fourthAnswer,
     },
     {
         number: 5,
-        question: 'Where to buy the secondary?',
-        answer: latestFAQ,
+        question: 'How Can I check the rarity of a Tiny Ape?',
+        answer: fifthAnswer,
+    },
+    {
+        number: 6,
+        question: 'What is the purpose of the Tiny Apes?',
+        answer: 'The Tiny Apes seek to form a DAO with a collective of investors, artists, creators, and all other influential members of the NFT community, in order to help each other grow financially and socially.',
     },
 ]
 
