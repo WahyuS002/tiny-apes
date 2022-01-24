@@ -16,7 +16,7 @@ function Roadmap() {
                         </div>
                     </div>
                     <div className="bg-semi-black shadow-2xl shadow-gray-400/10 rounded-xl  w-full md:w-5/12 p-6 md:px-8 md:py-6 ml-8 md:ml-0">
-                        <h3 className="font-semibold text-base md:text-lg">XXX </h3>
+                        <h3 className="font-semibold text-base md:text-lg">Airdrop to OG 8bit Mates holders</h3>
                         <p className="mt-3 leading-relaxed tracking-wide text-gray-500 text-sm md:text-base">
                             150 Apes reserved for the 8Bit Mate holders, 1 tiny ape per 8Bit Mate owned was sent to holders who claimed their Tiny Apes.
                         </p>
@@ -38,7 +38,7 @@ function Roadmap() {
                         <div className="bg-semi-black w-8 h-8 rounded-full"></div>
                     </div>
                     <div className="bg-semi-black shadow-2xl shadow-gray-400/10 rounded-xl  w-full md:w-5/12 p-6 md:px-8 md:py-6 ml-8 md:ml-0">
-                        <h3 className="font-semibold text-base md:text-lg">XXX</h3>
+                        <h3 className="font-semibold text-base md:text-lg">Partnerships and collaborations</h3>
                         <p className="mt-3 leading-relaxed tracking-wide text-gray-500 text-sm md:text-base">
                             A number of Tiny Apes will be randomly set aside for giveaways and partnerships with other projects.
                         </p>
